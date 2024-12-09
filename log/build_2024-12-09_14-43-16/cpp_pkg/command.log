@@ -1,0 +1,2 @@
+Invoking command in '/home/user/ros2_ws/build/cpp_pkg': /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
+Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '2': /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4

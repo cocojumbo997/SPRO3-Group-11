@@ -1,0 +1,14 @@
+[0.055s] Invoking command in '/home/user/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
+[0.301s] [ 75%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[0.302s] [ 75%] Built target node_template
+[12.686s] [100%] [32m[1mLinking CXX executable test_node[0m
+[13.179s] /usr/bin/ld: CMakeFiles/test_node.dir/src/test_node.cpp.o: in function `TestNode::TestNode()':
+[13.179s] test_node.cpp:(.text._ZN8TestNodeC2Ev[_ZN8TestNodeC5Ev]+0x204): undefined reference to `wiringPiSetupGpio'
+[13.180s] /usr/bin/ld: test_node.cpp:(.text._ZN8TestNodeC2Ev[_ZN8TestNodeC5Ev]+0x210): undefined reference to `pinMode'
+[13.180s] /usr/bin/ld: CMakeFiles/test_node.dir/src/test_node.cpp.o: in function `TestNode::timerCallback()':
+[13.180s] test_node.cpp:(.text._ZN8TestNode13timerCallbackEv[_ZN8TestNode13timerCallbackEv]+0x168): undefined reference to `digitalWrite'
+[13.206s] collect2: error: ld returned 1 exit status
+[13.211s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:151: test_node] Error 1
+[13.211s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+[13.212s] gmake: *** [Makefile:146: all] Error 2
+[13.220s] Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4

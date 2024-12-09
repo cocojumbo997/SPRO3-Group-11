@@ -1,0 +1,52 @@
+[0.143s] Invoking command in '/home/user/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/cpp_pkg -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/cpp_pkg
+[0.477s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.383s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.631s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.328s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.375s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.500s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.766s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.084s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.105s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.088s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.035s] -- Configuring done
+[6.182s] -- Generating done
+[6.213s] -- Build files have been written to: /home/user/ros2_ws/build/cpp_pkg
+[6.249s] Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/cpp_pkg -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/cpp_pkg
+[6.258s] Invoking command in '/home/user/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
+[6.482s] [35m[1mConsolidate compiler generated dependencies of target node_template[0m
+[6.492s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[6.514s] [35m[1mConsolidate compiler generated dependencies of target LIDAR_node[0m
+[6.982s] [ 16%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[7.056s] [ 33%] [32mBuilding CXX object CMakeFiles/LIDAR_node.dir/src/LIDAR_node.cpp.o[0m
+[7.104s] [ 50%] [32mBuilding CXX object CMakeFiles/node_template.dir/src/node_template.cpp.o[0m
+[39.657s] [ 66%] [32m[1mLinking CXX executable node_template[0m
+[41.591s] [ 83%] [32m[1mLinking CXX executable LIDAR_node[0m
+[41.964s] [ 83%] Built target node_template
+[42.651s] [ 83%] Built target LIDAR_node
+[43.142s] [100%] [32m[1mLinking CXX executable test_node[0m
+[43.836s] [100%] Built target test_node
+[43.903s] Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
+[43.955s] Invoking command in '/home/user/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/cpp_pkg
+[43.998s] -- Install configuration: "Release"
+[43.999s] -- Execute custom install script
+[44.008s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/lib/cpp_pkg/node_template
+[44.009s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/lib/cpp_pkg/test_node
+[44.010s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/lib/cpp_pkg/LIDAR_node
+[44.011s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+[44.015s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+[44.018s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+[44.020s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+[44.022s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+[44.025s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+[44.027s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+[44.029s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+[44.031s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+[44.033s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+[44.035s] -- Symlinking: /home/user/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.dsv
+[44.081s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+[44.085s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+[44.090s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+[44.094s] -- Up-to-date symlink: /home/user/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.xml
+[44.110s] Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/cpp_pkg

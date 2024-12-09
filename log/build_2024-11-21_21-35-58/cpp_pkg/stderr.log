@@ -1,0 +1,9 @@
+/usr/bin/ld: CMakeFiles/test_node.dir/src/test_node.cpp.o: in function `TestNode::TestNode()':
+test_node.cpp:(.text._ZN8TestNodeC2Ev[_ZN8TestNodeC5Ev]+0x204): undefined reference to `wiringPiSetupGpio'
+/usr/bin/ld: test_node.cpp:(.text._ZN8TestNodeC2Ev[_ZN8TestNodeC5Ev]+0x210): undefined reference to `pinMode'
+/usr/bin/ld: CMakeFiles/test_node.dir/src/test_node.cpp.o: in function `TestNode::timerCallback()':
+test_node.cpp:(.text._ZN8TestNode13timerCallbackEv[_ZN8TestNode13timerCallbackEv]+0x168): undefined reference to `digitalWrite'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/test_node.dir/build.make:151: test_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

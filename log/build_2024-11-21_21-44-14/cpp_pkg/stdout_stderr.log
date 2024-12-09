@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[ 50%] Built target node_template
+[ 75%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_node[0m
+/usr/bin/ld: CMakeFiles/test_node.dir/src/test_node.cpp.o: in function `TestNode::timerCallback()':
+test_node.cpp:(.text._ZN8TestNode13timerCallbackEv[_ZN8TestNode13timerCallbackEv]+0x168): undefined reference to `digitalWrite'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/test_node.dir/build.make:151: test_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

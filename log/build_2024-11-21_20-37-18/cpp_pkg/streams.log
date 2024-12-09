@@ -1,0 +1,14 @@
+[0.061s] Invoking command in '/home/user/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target node_template[0m
+[0.328s] [ 50%] [32mBuilding CXX object CMakeFiles/node_template.dir/src/node_template.cpp.o[0m
+[10.253s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:[m[K In constructor ‘[01m[KNodeTemplate::NodeTemplate()[m[K’:
+[10.254s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:10:42:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrd[m[K’ has not been declared
+[10.254s]    10 |         timer_ = this->create_wall_timer([01;31m[Ksrd[m[K::chrono::seconds(1),
+[10.255s]       |                                          [01;31m[K^~~[m[K
+[10.255s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:11:84:[m[K [01;31m[Kerror: [m[K‘[01m[KMyNode[m[K’ has not been declared
+[10.255s]    11 |                                                                         std::bind(&[01;31m[KMyNode[m[K::timerCallback, this);
+[10.256s]       |                                                                                    [01;31m[K^~~~~~[m[K
+[11.900s] gmake[2]: *** [CMakeFiles/node_template.dir/build.make:76: CMakeFiles/node_template.dir/src/node_template.cpp.o] Error 1
+[11.900s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_template.dir/all] Error 2
+[11.901s] gmake: *** [Makefile:146: all] Error 2
+[11.907s] Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4

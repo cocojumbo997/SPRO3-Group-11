@@ -1,0 +1,25 @@
+[4.735s] Invoking command in '/home/user/ros2_ws/src/py_pkg': PYTHONPATH=/home/user/ros2_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/user/ros2_ws/build/py_pkg/build install --record /home/user/ros2_ws/build/py_pkg/install.log --single-version-externally-managed install_data
+[5.788s] running egg_info
+[5.790s] writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[5.791s] writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[5.793s] writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[5.794s] writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt
+[5.795s] writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt
+[5.803s] reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[5.807s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[5.807s] running build
+[5.808s] running build_py
+[5.809s] copying py_pkg/lidar_node.py -> /home/user/ros2_ws/build/py_pkg/build/lib/py_pkg
+[5.810s] running install
+[5.812s] running install_lib
+[5.815s] copying /home/user/ros2_ws/build/py_pkg/build/lib/py_pkg/lidar_node.py -> /home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[5.819s] byte-compiling /home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg/lidar_node.py to lidar_node.cpython-310.pyc
+[5.821s] running install_data
+[5.822s] running install_egg_info
+[5.828s] removing '/home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.830s] Copying ../../build/py_pkg/py_pkg.egg-info to /home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info
+[5.835s] running install_scripts
+[5.920s] Installing lidar_node script to /home/user/ros2_ws/install/py_pkg/lib/py_pkg
+[6.975s] Installing node_template script to /home/user/ros2_ws/install/py_pkg/lib/py_pkg
+[6.978s] writing list of installed files to '/home/user/ros2_ws/build/py_pkg/install.log'
+[7.108s] Invoked command in '/home/user/ros2_ws/src/py_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/user/ros2_ws/build/py_pkg/build install --record /home/user/ros2_ws/build/py_pkg/install.log --single-version-externally-managed install_data

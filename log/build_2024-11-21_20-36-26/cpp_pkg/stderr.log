@@ -1,0 +1,40 @@
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:17:49:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   17 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"[m[Khello);
+      |                                                 [01;35m[K^[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:30:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   30 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:17:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   17 |                 RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "hello);
+      |                            [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:4:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    4 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:[m[K In constructor ‘[01m[KNodeTemplate::NodeTemplate()[m[K’:
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   10 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(srd::chrono::seconds(1),
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Ktimer_t[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:10:42:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrd[m[K’ has not been declared
+   10 |         timer_ = this->create_wall_timer([01;31m[Ksrd[m[K::chrono::seconds(1),
+      |                                          [01;31m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:11:84:[m[K [01;31m[Kerror: [m[K‘[01m[KMyNode[m[K’ has not been declared
+   11 |                                                                         std::bind(&[01;31m[KMyNode[m[K::timerCallback, this);
+      |                                                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:[m[K In member function ‘[01m[Kvoid NodeTemplate::timerCallback()[m[K’:
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:17:17:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   17 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "hello);
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:17:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   17 |                 RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "hello);
+      |                            [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:16:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   16 |         [01;36m[K{[m[K
+      |         [01;36m[K^[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:[m[K At global scope:
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:17:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   17 |                 RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "hello);
+      |                            [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/node_template.dir/build.make:76: CMakeFiles/node_template.dir/src/node_template.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_template.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

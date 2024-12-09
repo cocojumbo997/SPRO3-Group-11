@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[ 25%] Built target node_template
+[ 50%] Built target LIDAR_node
+[ 62%] [32mBuilding CXX object CMakeFiles/motor_node.dir/src/motor_node.cpp.o[0m
+[ 87%] Built target test_node
+[100%] [32m[1mLinking CXX executable motor_node[0m

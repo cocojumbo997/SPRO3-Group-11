@@ -1,0 +1,34 @@
+[0.060s] Invoking command in '/home/user/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target node_template[0m
+[0.323s] [ 50%] [32mBuilding CXX object CMakeFiles/node_template.dir/src/node_template.cpp.o[0m
+[10.294s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.298s]                  from [01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:1[m[K:
+[10.298s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:[m[K In constructor ‘[01m[KNodeTemplate::NodeTemplate()[m[K’:
+[10.299s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:8:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+[10.299s]     8 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "hello")
+[10.299s]       |                     [01;31m[K^~~~[m[K
+[10.300s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:8:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.300s]     8 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hello")
+[10.300s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[10.301s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:8:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.301s]     8 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hello")
+[10.301s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[10.302s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:8:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.302s]     8 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hello")
+[10.302s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[10.303s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:9:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[10.303s]     9 |         [01;31m[K}[m[K
+[10.304s]       |         [01;31m[K^[m[K
+[11.940s] gmake[2]: *** [CMakeFiles/node_template.dir/build.make:76: CMakeFiles/node_template.dir/src/node_template.cpp.o] Error 1
+[11.941s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_template.dir/all] Error 2
+[11.942s] gmake: *** [Makefile:146: all] Error 2
+[11.950s] Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4

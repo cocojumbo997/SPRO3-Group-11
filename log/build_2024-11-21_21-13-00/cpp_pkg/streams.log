@@ -1,0 +1,12 @@
+[0.054s] Invoking command in '/home/user/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.298s] [ 50%] Built target node_template
+[0.328s] [ 75%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[1.715s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kpigpio.h: No such file or directory
+[1.715s]     2 | #include [01;31m[K"pigpio.h"[m[K
+[1.716s]       |          [01;31m[K^~~~~~~~~~[m[K
+[1.716s] compilation terminated.
+[1.723s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1
+[1.724s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+[1.725s] gmake: *** [Makefile:146: all] Error 2
+[1.731s] Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4

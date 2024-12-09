@@ -1,0 +1,41 @@
+[0.302s] Invoking command in '/home/user/ros2_ws/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/ldlidar_component -- -j4 -l4
+[2.158s] [ 70%] Built target ldlidar
+[3.291s] [100%] Built target ldlidar_component
+[6.262s] Invoked command in '/home/user/ros2_ws/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/ldlidar_component -- -j4 -l4
+[6.284s] Invoking command in '/home/user/ros2_ws/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/ldlidar_component
+[6.401s] -- Install configuration: "Release"
+[6.408s] -- Execute custom install script
+[6.430s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/lib/libldlidar_component.so
+[6.454s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/include/ldlidar_component//defines.hpp
+[6.467s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/include/ldlidar_component//ldlidar_component.hpp
+[6.489s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/include/ldlidar_component//ldlidar_tools.hpp
+[6.495s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/include/ldlidar_component//visibility_control.hpp
+[6.502s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/include/ldlidar_component//ldlidar_datatype.h
+[6.535s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/include/ldlidar_component//ldlidar_driver.h
+[6.544s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/include/ldlidar_component//lipkg.h
+[6.559s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/include/ldlidar_component//tofbf.h
+[6.561s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/include/ldlidar_component//log_module.h
+[6.569s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/include/ldlidar_component//network_socket_interface_linux.h
+[6.570s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/include/ldlidar_component//serial_interface_linux.h
+[6.576s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/environment/library_path.sh
+[6.588s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/environment/library_path.dsv
+[6.591s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ament_index/resource_index/package_run_dependencies/ldlidar_component
+[6.616s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ament_index/resource_index/parent_prefix_path/ldlidar_component
+[6.618s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.sh
+[6.637s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.dsv
+[6.639s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/environment/path.sh
+[6.648s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/environment/path.dsv
+[6.651s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/local_setup.bash
+[6.663s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/local_setup.sh
+[6.670s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/local_setup.zsh
+[6.678s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/local_setup.dsv
+[6.685s] -- Symlinking: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/package.dsv
+[6.853s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ament_index/resource_index/packages/ldlidar_component
+[6.869s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ament_index/resource_index/rclcpp_components/ldlidar_component
+[6.880s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.887s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_libraries-extras.cmake
+[6.926s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.993s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig.cmake
+[7.020s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig-version.cmake
+[7.027s] -- Up-to-date symlink: /home/user/ros2_ws/install/ldlidar_component/share/ldlidar_component/package.xml
+[7.649s] Invoked command in '/home/user/ros2_ws/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/ldlidar_component

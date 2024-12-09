@@ -1,0 +1,12 @@
+[0.073s] Invoking command in '/home/user/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
+[0.275s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.340s] [ 33%] Built target node_template
+[0.342s] [ 66%] Built target LIDAR_node
+[0.369s] [ 83%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[10.354s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:41:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[10.355s]    41 |         [01;31m[Kwhile[m[K(1){
+[10.355s]       |         [01;31m[K^~~~~[m[K
+[11.987s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1
+[11.988s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_node.dir/all] Error 2
+[11.989s] gmake: *** [Makefile:146: all] Error 2
+[11.996s] Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4

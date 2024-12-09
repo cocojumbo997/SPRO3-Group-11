@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[ 50%] Built target node_template
+[ 75%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:[m[K In constructor ‘[01m[KTestNode::TestNode()[m[K’:
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:9:17:[m[K [01;31m[Kerror: [m[K‘[01m[KwiringPiSetupGPIO[m[K’ was not declared in this scope; did you mean ‘[01m[KwiringPiSetupGpio[m[K’?
+    9 |                 [01;31m[KwiringPiSetupGpio[m[K();
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KwiringPiSetupGpio[m[K
+gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

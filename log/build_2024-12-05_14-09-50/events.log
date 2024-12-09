@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.001515] (-) JobUnselected: {'identifier': 'cpp_pkg'}
+[0.001642] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.001722] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.001799] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.001874] (-) JobUnselected: {'identifier': 'ldlidar_component'}
+[0.001949] (-) JobUnselected: {'identifier': 'ldlidar_node'}
+[0.002023] (-) JobUnselected: {'identifier': 'ldlidar_stl'}
+[0.002107] (py_pkg) JobQueued: {'identifier': 'py_pkg', 'dependencies': OrderedDict()}
+[0.002231] (py_pkg) JobStarted: {'identifier': 'py_pkg'}
+[0.099039] (-) TimerEvent: {}
+[0.200112] (-) TimerEvent: {}
+[0.301295] (-) TimerEvent: {}
+[0.402569] (-) TimerEvent: {}
+[0.503739] (-) TimerEvent: {}
+[0.604944] (-) TimerEvent: {}
+[0.706327] (-) TimerEvent: {}
+[0.807505] (-) TimerEvent: {}
+[0.908667] (-) TimerEvent: {}
+[1.009828] (-) TimerEvent: {}
+[1.111042] (-) TimerEvent: {}
+[1.212091] (-) TimerEvent: {}
+[1.312787] (-) TimerEvent: {}
+[1.413590] (-) TimerEvent: {}
+[1.514309] (-) TimerEvent: {}
+[1.614948] (-) TimerEvent: {}
+[1.715751] (-) TimerEvent: {}
+[1.816750] (-) TimerEvent: {}
+[1.917380] (-) TimerEvent: {}
+[2.018027] (-) TimerEvent: {}
+[2.118721] (-) TimerEvent: {}
+[2.219328] (-) TimerEvent: {}
+[2.320145] (-) TimerEvent: {}
+[2.421106] (-) TimerEvent: {}
+[2.521990] (-) TimerEvent: {}
+[2.622754] (-) TimerEvent: {}
+[2.723588] (-) TimerEvent: {}
+[2.824849] (-) TimerEvent: {}
+[2.925762] (-) TimerEvent: {}
+[3.026410] (-) TimerEvent: {}
+[3.127058] (-) TimerEvent: {}
+[3.227664] (-) TimerEvent: {}
+[3.328339] (-) TimerEvent: {}
+[3.429003] (-) TimerEvent: {}
+[3.529635] (-) TimerEvent: {}
+[3.630315] (-) TimerEvent: {}
+[3.731193] (-) TimerEvent: {}
+[3.831851] (-) TimerEvent: {}
+[3.932735] (-) TimerEvent: {}
+[3.989818] (py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pkg', 'build', '--build-base', '/home/user/ros2_ws/build/py_pkg/build', 'install', '--record', '/home/user/ros2_ws/build/py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/ros2_ws/src/py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'user', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user/ros2_ws/install/ldlidar_component/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1045', 'SYSTEMD_EXEC_PID': '1509', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2337', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/user/ldlidar_ros2_ws/install:/home/user/ros2_ws/sdk_ldrobotsensorteam_stl/ros2_app/install:/home/user/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'user', 'JOURNAL_STREAM': '8:23289', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-desktop:@/tmp/.ICE-unix/1208,unix/user-desktop:/tmp/.ICE-unix/1208', 'INVOCATION_ID': '4eefe3cd6bfe43abb8456e0861ea8ed9', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YQS9X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/py_pkg:/home/user/ros2_ws/install/ldlidar:/home/user/ros2_ws/install/ldlidar_node:/home/user/ros2_ws/install/ldlidar_component:/home/user/ros2_ws/install/cpp_pkg:/home/user/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/user/ros2_ws/sdk_ldrobotsensorteam_stl/ros2_app/install/ldlidar:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:a06432ac-b5a3-4012-8fd1-f738b27ecc0e', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/ros2_ws/build/py_pkg', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ros2_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/build/py_pkg:/home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/user/ros2_ws/install/ldlidar:/home/user/ros2_ws/install/ldlidar_node:/home/user/ros2_ws/install/ldlidar_component:/home/user/ros2_ws/install/cpp_pkg:/home/user/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/user/ros2_ws/sdk_ldrobotsensorteam_stl/ros2_app/install/ldlidar'}, 'shell': False}
+[4.739685] (-) TimerEvent: {}
+[4.840741] (-) TimerEvent: {}
+[4.941428] (-) TimerEvent: {}
+[5.042113] (-) TimerEvent: {}
+[5.142786] (-) TimerEvent: {}
+[5.243414] (-) TimerEvent: {}
+[5.344090] (-) TimerEvent: {}
+[5.444713] (-) TimerEvent: {}
+[5.545373] (-) TimerEvent: {}
+[5.646079] (-) TimerEvent: {}
+[5.746826] (-) TimerEvent: {}
+[5.789700] (py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.792647] (py_pkg) StdoutLine: {'line': b'writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO\n'}
+[5.793792] (py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt\n'}
+[5.795008] (py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt\n'}
+[5.796209] (py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt\n'}
+[5.797087] (py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt\n'}
+[5.805372] (py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[5.809115] (py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[5.809829] (py_pkg) StdoutLine: {'line': b'running build\n'}
+[5.810386] (py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[5.811256] (py_pkg) StdoutLine: {'line': b'copying py_pkg/lidar_node.py -> /home/user/ros2_ws/build/py_pkg/build/lib/py_pkg\n'}
+[5.812700] (py_pkg) StdoutLine: {'line': b'running install\n'}
+[5.814084] (py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.817672] (py_pkg) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/py_pkg/build/lib/py_pkg/lidar_node.py -> /home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[5.820996] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg/lidar_node.py to lidar_node.cpython-310.pyc\n'}
+[5.823302] (py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.824003] (py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.830641] (py_pkg) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.832315] (py_pkg) StdoutLine: {'line': b'Copying ../../build/py_pkg/py_pkg.egg-info to /home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info\n'}
+[5.837307] (py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[5.846982] (-) TimerEvent: {}
+[5.922276] (py_pkg) StdoutLine: {'line': b'Installing lidar_node script to /home/user/ros2_ws/install/py_pkg/lib/py_pkg\n'}
+[5.947158] (-) TimerEvent: {}
+[6.048193] (-) TimerEvent: {}
+[6.149386] (-) TimerEvent: {}
+[6.250595] (-) TimerEvent: {}
+[6.351696] (-) TimerEvent: {}
+[6.452773] (-) TimerEvent: {}
+[6.553918] (-) TimerEvent: {}
+[6.655113] (-) TimerEvent: {}
+[6.756352] (-) TimerEvent: {}
+[6.857365] (-) TimerEvent: {}
+[6.958420] (-) TimerEvent: {}
+[6.976839] (py_pkg) StdoutLine: {'line': b'Installing node_template script to /home/user/ros2_ws/install/py_pkg/lib/py_pkg\n'}
+[6.980174] (py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/py_pkg/install.log'\n"}
+[7.058711] (-) TimerEvent: {}
+[7.109879] (py_pkg) CommandEnded: {'returncode': 0}
+[7.156178] (py_pkg) JobEnded: {'identifier': 'py_pkg', 'rc': 0}
+[7.158851] (-) TimerEvent: {}
+[7.159169] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/user/ros2_ws/build/cpp_pkg/node_template" "/home/user/ros2_ws/build/cpp_pkg/test_node" "/home/user/ros2_ws/build/cpp_pkg/LIDAR_node" "TARGETS" "node_template" "test_node" "LIDAR_node" "DESTINATION" "lib/cpp_pkg")

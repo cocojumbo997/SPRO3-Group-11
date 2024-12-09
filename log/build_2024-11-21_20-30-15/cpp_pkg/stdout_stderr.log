@@ -1,0 +1,78 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/cpp_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/node_template.dir/src/node_template.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:1[m[K:
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:[m[K In constructor ‘[01m[KNodeTemplate::NodeTemplate()[m[K’:
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:8:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+    8 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "hello")
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:8:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hello")
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:8:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hello")
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:8:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hello")
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:9:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+    9 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:[m[K At global scope:
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:15:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcher[m[K’ has not been declared
+   15 | int main(int argc, [01;31m[Kcher[m[K **argv)
+      |                    [01;31m[K^~~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:15:5:[m[K [01;35m[Kwarning: [m[Ksecond argument of ‘[01m[Kint main(int, int**)[m[K’ should be ‘[01m[Kchar **[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmain-Wmain]8;;[m[K]
+   15 | int [01;35m[Kmain[m[K(int argc, cher **argv)
+      |     [01;35m[K^~~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:[m[K In function ‘[01m[Kint main(int, int**)[m[K’:
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:17:28:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint**[m[K’ to ‘[01m[Kconst char* const*[m[K’
+   17 |         rclcpp::init(argc, [01;31m[Kargv[m[K);
+      |                            [01;31m[K^~~~[m[K
+      |                            [01;31m[K|[m[K
+      |                            [01;31m[Kint**[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:77:24:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&, rclcpp::SignalHandlerOptions)[m[K’
+   77 |   [01;36m[Kchar const * const * argv[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:19:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+   19 |         rclcpp::spin(node)
+      |                           [01;31m[K^[m[K
+      |                           [32m[K;[m[K
+   20 |         [32m[Krclcpp[m[K::shutdown();
+      |         [32m[K~~~~~~[m[K             
+gmake[2]: *** [CMakeFiles/node_template.dir/build.make:76: CMakeFiles/node_template.dir/src/node_template.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_template.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

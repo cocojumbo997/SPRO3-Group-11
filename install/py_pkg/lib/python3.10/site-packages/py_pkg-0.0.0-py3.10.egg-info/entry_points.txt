@@ -1,0 +1,5 @@
+[console_scripts]
+imu_node = py_pkg.imu_node:main
+lidar_node = py_pkg.lidar_node:main
+node_template = py_pkg.node_template:main
+

@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.001743] (py_pkg) JobQueued: {'identifier': 'py_pkg', 'dependencies': OrderedDict()}
+[0.002337] (py_pkg) JobStarted: {'identifier': 'py_pkg'}
+[0.099174] (-) TimerEvent: {}
+[0.199993] (-) TimerEvent: {}
+[0.300686] (-) TimerEvent: {}
+[0.401533] (-) TimerEvent: {}
+[0.502583] (-) TimerEvent: {}
+[0.603268] (-) TimerEvent: {}
+[0.703963] (-) TimerEvent: {}
+[0.804588] (-) TimerEvent: {}
+[0.905252] (-) TimerEvent: {}
+[1.005889] (-) TimerEvent: {}
+[1.106570] (-) TimerEvent: {}
+[1.207361] (-) TimerEvent: {}
+[1.308387] (-) TimerEvent: {}
+[1.409115] (-) TimerEvent: {}
+[1.509721] (-) TimerEvent: {}
+[1.610386] (-) TimerEvent: {}
+[1.711018] (-) TimerEvent: {}
+[1.811685] (-) TimerEvent: {}
+[1.912399] (-) TimerEvent: {}
+[2.013028] (-) TimerEvent: {}
+[2.113696] (-) TimerEvent: {}
+[2.214322] (-) TimerEvent: {}
+[2.314941] (-) TimerEvent: {}
+[2.415600] (-) TimerEvent: {}
+[2.516339] (-) TimerEvent: {}
+[2.617238] (-) TimerEvent: {}
+[2.718432] (-) TimerEvent: {}
+[2.728626] (py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py_pkg', 'build', '--build-base', '/home/user/ros2_ws/src/build/py_pkg/build', 'install', '--record', '/home/user/ros2_ws/src/build/py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/ros2_ws/src/py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'user', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '982', 'SYSTEMD_EXEC_PID': '1488', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5515', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'user', 'JOURNAL_STREAM': '8:25611', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-desktop:@/tmp/.ICE-unix/1189,unix/user-desktop:/tmp/.ICE-unix/1189', 'INVOCATION_ID': '4f8ff596b30e412db8050d2f5286595f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FK84W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6c1edc3c-cc7b-4aec-9f2d-b5aa7ec180e4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/ros2_ws/src/build/py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ros2_ws/src/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.818626] (-) TimerEvent: {}
+[2.919326] (-) TimerEvent: {}
+[3.020003] (-) TimerEvent: {}
+[3.120676] (-) TimerEvent: {}
+[3.221392] (-) TimerEvent: {}
+[3.322044] (-) TimerEvent: {}
+[3.422684] (-) TimerEvent: {}
+[3.523311] (-) TimerEvent: {}
+[3.623952] (-) TimerEvent: {}
+[3.724608] (-) TimerEvent: {}
+[3.825296] (-) TimerEvent: {}
+[3.833039] (py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.835377] (py_pkg) StdoutLine: {'line': b'creating ../build/py_pkg/py_pkg.egg-info\n'}
+[3.836121] (py_pkg) StdoutLine: {'line': b'writing ../build/py_pkg/py_pkg.egg-info/PKG-INFO\n'}
+[3.837460] (py_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/py_pkg/py_pkg.egg-info/dependency_links.txt\n'}
+[3.838093] (py_pkg) StdoutLine: {'line': b'writing entry points to ../build/py_pkg/py_pkg.egg-info/entry_points.txt\n'}
+[3.838607] (py_pkg) StdoutLine: {'line': b'writing requirements to ../build/py_pkg/py_pkg.egg-info/requires.txt\n'}
+[3.839062] (py_pkg) StdoutLine: {'line': b'writing top-level names to ../build/py_pkg/py_pkg.egg-info/top_level.txt\n'}
+[3.839895] (py_pkg) StdoutLine: {'line': b"writing manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[3.846781] (py_pkg) StdoutLine: {'line': b"reading manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[3.849619] (py_pkg) StdoutLine: {'line': b"writing manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[3.850211] (py_pkg) StdoutLine: {'line': b'running build\n'}
+[3.850603] (py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.851037] (py_pkg) StdoutLine: {'line': b'creating /home/user/ros2_ws/src/build/py_pkg/build\n'}
+[3.851605] (py_pkg) StdoutLine: {'line': b'creating /home/user/ros2_ws/src/build/py_pkg/build/lib\n'}
+[3.852032] (py_pkg) StdoutLine: {'line': b'creating /home/user/ros2_ws/src/build/py_pkg/build/lib/py_pkg\n'}
+[3.852774] (py_pkg) StdoutLine: {'line': b'copying py_pkg/__init__.py -> /home/user/ros2_ws/src/build/py_pkg/build/lib/py_pkg\n'}
+[3.853476] (py_pkg) StdoutLine: {'line': b'running install\n'}
+[3.854869] (py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.858433] (py_pkg) StdoutLine: {'line': b'creating /home/user/ros2_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[3.859732] (py_pkg) StdoutLine: {'line': b'copying /home/user/ros2_ws/src/build/py_pkg/build/lib/py_pkg/__init__.py -> /home/user/ros2_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[3.863150] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[3.864796] (py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.865759] (py_pkg) StdoutLine: {'line': b'creating /home/user/ros2_ws/src/install/py_pkg/share/ament_index\n'}
+[3.866408] (py_pkg) StdoutLine: {'line': b'creating /home/user/ros2_ws/src/install/py_pkg/share/ament_index/resource_index\n'}
+[3.866941] (py_pkg) StdoutLine: {'line': b'creating /home/user/ros2_ws/src/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[3.867527] (py_pkg) StdoutLine: {'line': b'copying resource/py_pkg -> /home/user/ros2_ws/src/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[3.868030] (py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/user/ros2_ws/src/install/py_pkg/share/py_pkg\n'}
+[3.868380] (py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.875304] (py_pkg) StdoutLine: {'line': b'Copying ../build/py_pkg/py_pkg.egg-info to /home/user/ros2_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info\n'}
+[3.880417] (py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.925455] (-) TimerEvent: {}
+[3.964289] (py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/src/build/py_pkg/install.log'\n"}
+[4.025743] (-) TimerEvent: {}
+[4.091155] (py_pkg) CommandEnded: {'returncode': 0}
+[4.127494] (-) TimerEvent: {}
+[4.138145] (py_pkg) JobEnded: {'identifier': 'py_pkg', 'rc': 0}
+[4.141119] (-) EventReactorShutdown: {}

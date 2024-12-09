@@ -1,0 +1,58 @@
+[1.177s] Invoking command in '/home/user/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
+[1.386s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[1.440s] [ 33%] Built target node_template
+[1.449s] [ 66%] Built target LIDAR_node
+[1.476s] [ 83%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[11.541s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:[m[K In constructor ‘[01m[KTestNode::TestNode()[m[K’:
+[11.541s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:17:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[11.542s]    17 |                 if((serialFd = serialOpen(serialPort, baudRate)<0)[01;31m[K{[m[K
+[11.542s]       |                                                                   [01;31m[K^[m[K
+[11.542s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:22:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kif[m[K’
+[11.543s]    22 |                 [01;31m[Kif[m[K(wiringPiSetup() == -1){
+[11.543s]       |                 [01;31m[K^~[m[K
+[11.544s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:22:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kif[m[K’
+[11.544s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:17:19:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[11.545s]    17 |                 if[01;36m[K([m[K(serialFd = serialOpen(serialPort, baudRate)<0){
+[11.545s]       |                   [01;36m[K^[m[K
+[11.545s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:34:36:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+[11.546s]    34 |                 pinMode(24, OUTPUT)[01;35m[K;[m[K
+[11.546s]       |                                    [01;35m[K^[m[K
+[11.603s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:[m[K In member function ‘[01m[Kvoid TestNode::timerCallback()[m[K’:
+[11.604s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:56:36:[m[K [01;31m[Kerror: [m[K‘[01m[KserialFd[m[K’ was not declared in this scope
+[11.604s]    56 |                 if(serialDataAvail([01;31m[KserialFd[m[K)){
+[11.604s]       |                                    [01;31m[K^~~~~~~~[m[K
+[11.605s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[11.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[11.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[11.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[11.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.608s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.608s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.608s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.609s]                  from [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:1[m[K:
+[11.609s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:58:57:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[11.610s]    58 |                         RCLCPP_INFO(this->get_logger(), [01;31m[KreceivedChar[m[K);
+[11.610s]       |                                                         [01;31m[K^~~~~~~~~~~~[m[K
+[11.611s]       |                                                         [01;31m[K|[m[K
+[11.611s]       |                                                         [01;31m[Kchar[m[K
+[11.611s] In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[11.612s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[11.613s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[11.613s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[11.613s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[11.614s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[11.614s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[11.614s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.615s]                  from [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:1[m[K:
+[11.616s] [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[11.616s]   479 |   [01;36m[Kconst char * format[m[K,
+[11.617s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[13.403s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1
+[13.404s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_node.dir/all] Error 2
+[13.404s] gmake: *** [Makefile:146: all] Error 2
+[13.411s] Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4

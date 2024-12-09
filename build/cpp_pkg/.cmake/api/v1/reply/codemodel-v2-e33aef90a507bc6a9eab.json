@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c6b6e8ce450d976582a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LIDAR_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LIDAR_node-Release-9a1a0a7d17c4aa4dc253.json",
+					"name" : "LIDAR_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_pkg_uninstall-Release-6ce1de4762b74ff64935.json",
+					"name" : "cpp_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_node-Release-44fb3245b5e0b587fd28.json",
+					"name" : "motor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "node_template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-node_template-Release-628866b5993189e73550.json",
+					"name" : "node_template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_node-Release-a2a78b19cee3de7da0aa.json",
+					"name" : "test_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-7e0f90075cd5f9670bf8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/ros2_ws/build/cpp_pkg",
+		"source" : "/home/user/ros2_ws/src/cpp_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

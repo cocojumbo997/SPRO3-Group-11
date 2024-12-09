@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.001254] (-) JobUnselected: {'identifier': 'py_pkg'}
+[0.001482] (cpp_pkg) JobQueued: {'identifier': 'cpp_pkg', 'dependencies': OrderedDict()}
+[0.001763] (cpp_pkg) JobStarted: {'identifier': 'cpp_pkg'}
+[0.043178] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'cmake'}
+[0.045934] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'build'}
+[0.048651] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/user/ros2_ws/build/cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1022'), ('SYSTEMD_EXEC_PID', '1519'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3730'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('JOURNAL_STREAM', '8:24628'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-desktop:@/tmp/.ICE-unix/1207,unix/user-desktop:/tmp/.ICE-unix/1207'), ('INVOCATION_ID', 'd763ba1e73724ab7b38d6d5a206a88d1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DOFJX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/py_pkg:/home/user/ros2_ws/install/cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9962b870-7c7a-497b-83b7-cd34ee6e5866'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_ws/build/cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/cpp_pkg:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.098015] (-) TimerEvent: {}
+[0.198837] (-) TimerEvent: {}
+[0.237058] (cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_node\x1b[0m\n'}
+[0.291686] (cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target node_template\n'}
+[0.299040] (-) TimerEvent: {}
+[0.321991] (cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o\x1b[0m\n'}
+[0.399230] (-) TimerEvent: {}
+[0.499962] (-) TimerEvent: {}
+[0.600773] (-) TimerEvent: {}
+[0.701497] (-) TimerEvent: {}
+[0.802231] (-) TimerEvent: {}
+[0.902937] (-) TimerEvent: {}
+[1.003607] (-) TimerEvent: {}
+[1.104352] (-) TimerEvent: {}
+[1.204990] (-) TimerEvent: {}
+[1.305658] (-) TimerEvent: {}
+[1.406371] (-) TimerEvent: {}
+[1.507054] (-) TimerEvent: {}
+[1.607699] (-) TimerEvent: {}
+[1.708407] (-) TimerEvent: {}
+[1.809168] (-) TimerEvent: {}
+[1.909949] (-) TimerEvent: {}
+[2.010736] (-) TimerEvent: {}
+[2.111487] (-) TimerEvent: {}
+[2.212242] (-) TimerEvent: {}
+[2.313031] (-) TimerEvent: {}
+[2.413768] (-) TimerEvent: {}
+[2.514526] (-) TimerEvent: {}
+[2.615293] (-) TimerEvent: {}
+[2.716041] (-) TimerEvent: {}
+[2.816813] (-) TimerEvent: {}
+[2.917665] (-) TimerEvent: {}
+[3.018649] (-) TimerEvent: {}
+[3.119479] (-) TimerEvent: {}
+[3.220368] (-) TimerEvent: {}
+[3.321290] (-) TimerEvent: {}
+[3.422193] (-) TimerEvent: {}
+[3.523061] (-) TimerEvent: {}
+[3.623796] (-) TimerEvent: {}
+[3.724734] (-) TimerEvent: {}
+[3.825584] (-) TimerEvent: {}
+[3.926326] (-) TimerEvent: {}
+[4.027123] (-) TimerEvent: {}
+[4.127880] (-) TimerEvent: {}
+[4.228620] (-) TimerEvent: {}
+[4.329487] (-) TimerEvent: {}
+[4.430217] (-) TimerEvent: {}
+[4.531056] (-) TimerEvent: {}
+[4.632031] (-) TimerEvent: {}
+[4.732902] (-) TimerEvent: {}
+[4.833654] (-) TimerEvent: {}
+[4.934448] (-) TimerEvent: {}
+[5.035185] (-) TimerEvent: {}
+[5.135957] (-) TimerEvent: {}
+[5.237077] (-) TimerEvent: {}
+[5.338568] (-) TimerEvent: {}
+[5.439764] (-) TimerEvent: {}
+[5.540922] (-) TimerEvent: {}
+[5.641703] (-) TimerEvent: {}
+[5.742480] (-) TimerEvent: {}
+[5.843206] (-) TimerEvent: {}
+[5.944027] (-) TimerEvent: {}
+[6.044805] (-) TimerEvent: {}
+[6.145532] (-) TimerEvent: {}
+[6.246284] (-) TimerEvent: {}
+[6.347061] (-) TimerEvent: {}
+[6.447802] (-) TimerEvent: {}
+[6.548618] (-) TimerEvent: {}
+[6.649444] (-) TimerEvent: {}
+[6.750229] (-) TimerEvent: {}
+[6.851049] (-) TimerEvent: {}
+[6.951802] (-) TimerEvent: {}
+[7.052561] (-) TimerEvent: {}
+[7.153356] (-) TimerEvent: {}
+[7.254124] (-) TimerEvent: {}
+[7.354942] (-) TimerEvent: {}
+[7.455754] (-) TimerEvent: {}
+[7.556531] (-) TimerEvent: {}
+[7.657393] (-) TimerEvent: {}
+[7.758170] (-) TimerEvent: {}
+[7.858997] (-) TimerEvent: {}
+[7.959753] (-) TimerEvent: {}
+[8.060532] (-) TimerEvent: {}
+[8.161263] (-) TimerEvent: {}
+[8.262066] (-) TimerEvent: {}
+[8.362883] (-) TimerEvent: {}
+[8.463652] (-) TimerEvent: {}
+[8.564480] (-) TimerEvent: {}
+[8.665370] (-) TimerEvent: {}
+[8.766159] (-) TimerEvent: {}
+[8.867020] (-) TimerEvent: {}
+[8.967773] (-) TimerEvent: {}
+[9.068527] (-) TimerEvent: {}
+[9.169294] (-) TimerEvent: {}
+[9.270039] (-) TimerEvent: {}
+[9.370857] (-) TimerEvent: {}
+[9.471650] (-) TimerEvent: {}
+[9.572479] (-) TimerEvent: {}
+[9.673310] (-) TimerEvent: {}
+[9.774292] (-) TimerEvent: {}
+[9.875075] (-) TimerEvent: {}
+[9.975831] (-) TimerEvent: {}
+[10.076660] (-) TimerEvent: {}
+[10.177538] (-) TimerEvent: {}
+[10.278248] (-) TimerEvent: {}
+[10.379032] (-) TimerEvent: {}
+[10.479982] (-) TimerEvent: {}
+[10.580907] (-) TimerEvent: {}
+[10.681788] (-) TimerEvent: {}
+[10.716601] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTestNode::TestNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.717991] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:9:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KwiringPiSetupGPIO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KwiringPiSetupGpio\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.718888] (cpp_pkg) StderrLine: {'line': b'    9 |                 \x1b[01;31m\x1b[KwiringPiSetupGpio\x1b[m\x1b[K();\n'}
+[10.719705] (cpp_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.720262] (cpp_pkg) StderrLine: {'line': b'      |                 \x1b[32m\x1b[KwiringPiSetupGpio\x1b[m\x1b[K\n'}
+[10.782023] (-) TimerEvent: {}
+[10.882845] (-) TimerEvent: {}
+[10.983639] (-) TimerEvent: {}
+[11.084424] (-) TimerEvent: {}
+[11.185167] (-) TimerEvent: {}
+[11.285915] (-) TimerEvent: {}
+[11.388941] (-) TimerEvent: {}
+[11.490168] (-) TimerEvent: {}
+[11.591152] (-) TimerEvent: {}
+[11.691934] (-) TimerEvent: {}
+[11.792744] (-) TimerEvent: {}
+[11.893503] (-) TimerEvent: {}
+[11.994252] (-) TimerEvent: {}
+[12.095119] (-) TimerEvent: {}
+[12.195875] (-) TimerEvent: {}
+[12.296653] (-) TimerEvent: {}
+[12.397420] (-) TimerEvent: {}
+[12.498180] (-) TimerEvent: {}
+[12.599003] (-) TimerEvent: {}
+[12.699802] (-) TimerEvent: {}
+[12.754627] (cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1\n'}
+[12.755358] (cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2\n'}
+[12.755958] (cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.761726] (cpp_pkg) CommandEnded: {'returncode': 2}
+[12.799940] (-) TimerEvent: {}
+[12.900708] (-) TimerEvent: {}
+[12.960869] (cpp_pkg) JobEnded: {'identifier': 'cpp_pkg', 'rc': 2}
+[12.972704] (-) EventReactorShutdown: {}

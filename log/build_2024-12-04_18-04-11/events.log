@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.001241] (-) JobUnselected: {'identifier': 'cpp_pkg'}
+[0.001499] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.001620] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.001697] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.001771] (-) JobUnselected: {'identifier': 'ldlidar_component'}
+[0.001890] (-) JobUnselected: {'identifier': 'ldlidar_node'}
+[0.002133] (-) JobUnselected: {'identifier': 'ldlidar_stl'}
+[0.002212] (-) JobUnselected: {'identifier': 'py_pkg'}
+[0.002676] (-) EventReactorShutdown: {}

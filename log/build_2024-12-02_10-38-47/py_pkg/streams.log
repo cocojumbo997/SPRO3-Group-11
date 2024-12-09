@@ -1,0 +1,17 @@
+[14.015s] Invoking command in '/home/user/ros2_ws/build/py_pkg': PYTHONPATH=/home/user/ros2_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/py_pkg/build --no-deps symlink_data
+[19.087s] running develop
+[24.146s] running egg_info
+[24.158s] writing py_pkg.egg-info/PKG-INFO
+[24.162s] writing dependency_links to py_pkg.egg-info/dependency_links.txt
+[24.166s] writing entry points to py_pkg.egg-info/entry_points.txt
+[24.174s] writing requirements to py_pkg.egg-info/requires.txt
+[24.178s] writing top-level names to py_pkg.egg-info/top_level.txt
+[24.224s] reading manifest file 'py_pkg.egg-info/SOURCES.txt'
+[24.250s] writing manifest file 'py_pkg.egg-info/SOURCES.txt'
+[24.274s] running build_ext
+[24.278s] Creating /home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages/py-pkg.egg-link (link to .)
+[24.293s] Installing node_template script to /home/user/ros2_ws/install/py_pkg/lib/py_pkg
+[24.299s] 
+[24.301s] Installed /home/user/ros2_ws/build/py_pkg
+[24.304s] running symlink_data
+[24.963s] Invoked command in '/home/user/ros2_ws/build/py_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/py_pkg/build --no-deps symlink_data

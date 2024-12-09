@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/motor_node.dir/src/motor_node.cpp.o: in function `MotorNode::MotorNode()':
+motor_node.cpp:(.text._ZN9MotorNodeC2Ev[_ZN9MotorNodeC5Ev]+0x448): undefined reference to `wiringPiSetupGpio'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/motor_node.dir/build.make:151: motor_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/motor_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

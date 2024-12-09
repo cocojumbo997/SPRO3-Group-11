@@ -1,0 +1,10 @@
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:[m[K In constructor ‘[01m[KTestNode::TestNode()[m[K’:
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:12:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KserialPort[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   12 |                 const char* [01;35m[KserialPort[m[K = "dev/serial0";
+      |                             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:13:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbaudRate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   13 |                 int [01;35m[KbaudRate[m[K = 9600;
+      |                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:14:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KserialFd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   14 |                 int [01;35m[KserialFd[m[K;
+      |                     [01;35m[K^~~~~~~~[m[K

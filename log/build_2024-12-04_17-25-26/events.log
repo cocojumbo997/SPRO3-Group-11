@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.001516] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.002079] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.002642] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.002828] (-) JobUnselected: {'identifier': 'ldlidar_component'}
+[0.002972] (-) JobUnselected: {'identifier': 'ldlidar_node'}
+[0.003114] (-) JobUnselected: {'identifier': 'ldlidar_stl'}
+[0.003190] (-) JobUnselected: {'identifier': 'py_pkg'}
+[0.003275] (cpp_pkg) JobQueued: {'identifier': 'cpp_pkg', 'dependencies': OrderedDict()}
+[0.003361] (cpp_pkg) JobStarted: {'identifier': 'cpp_pkg'}
+[0.098974] (-) TimerEvent: {}
+[0.200457] (-) TimerEvent: {}
+[0.301322] (-) TimerEvent: {}
+[0.402554] (-) TimerEvent: {}
+[0.503754] (-) TimerEvent: {}
+[0.604866] (-) TimerEvent: {}
+[0.705935] (-) TimerEvent: {}
+[0.807122] (-) TimerEvent: {}
+[0.908150] (-) TimerEvent: {}
+[1.009262] (-) TimerEvent: {}
+[1.110694] (-) TimerEvent: {}
+[1.152324] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'cmake'}
+[1.157365] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'build'}
+[1.160278] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/user/ros2_ws/build/cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/ldlidar_component/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1008'), ('SYSTEMD_EXEC_PID', '1487'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3616'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/ldlidar_ros2_ws/install:/home/user/ros2_ws/sdk_ldrobotsensorteam_stl/ros2_app/install:/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('JOURNAL_STREAM', '8:19444'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-desktop:@/tmp/.ICE-unix/1185,unix/user-desktop:/tmp/.ICE-unix/1185'), ('INVOCATION_ID', 'e000eb636cf64028b229d080f0186670'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4YRYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/user/ros2_ws/sdk_ldrobotsensorteam_stl/ros2_app/install/ldlidar:/home/user/ros2_ws/install/py_pkg:/home/user/ros2_ws/install/ldlidar:/home/user/ros2_ws/install/ldlidar_node:/home/user/ros2_ws/install/ldlidar_component:/home/user/ros2_ws/install/cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:dc0f5c7f-8721-4b49-8a9d-cc7d509a9469'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_ws/build/cpp_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ros2_ws/build/py_pkg:/home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/user/ros2_ws/sdk_ldrobotsensorteam_stl/ros2_app/install/ldlidar:/home/user/ros2_ws/install/ldlidar:/home/user/ros2_ws/install/ldlidar_node:/home/user/ros2_ws/install/ldlidar_component:/home/user/ros2_ws/install/cpp_pkg:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble')]), 'shell': False}
+[2.304553] (-) TimerEvent: {}
+[2.374769] (cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_node\x1b[0m\n'}
+[2.404799] (-) TimerEvent: {}
+[2.433673] (cpp_pkg) StdoutLine: {'line': b'[ 33%] Built target node_template\n'}
+[2.444619] (cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target LIDAR_node\n'}
+[2.471919] (cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o\x1b[0m\n'}
+[2.505097] (-) TimerEvent: {}
+[2.605875] (-) TimerEvent: {}
+[2.706585] (-) TimerEvent: {}
+[2.807244] (-) TimerEvent: {}
+[2.907947] (-) TimerEvent: {}
+[3.008708] (-) TimerEvent: {}
+[3.109460] (-) TimerEvent: {}
+[3.210295] (-) TimerEvent: {}
+[3.311235] (-) TimerEvent: {}
+[3.411921] (-) TimerEvent: {}
+[3.512601] (-) TimerEvent: {}
+[3.613330] (-) TimerEvent: {}
+[3.714039] (-) TimerEvent: {}
+[3.814729] (-) TimerEvent: {}
+[3.915431] (-) TimerEvent: {}
+[4.016199] (-) TimerEvent: {}
+[4.116980] (-) TimerEvent: {}
+[4.217799] (-) TimerEvent: {}
+[4.318605] (-) TimerEvent: {}
+[4.419381] (-) TimerEvent: {}
+[4.520150] (-) TimerEvent: {}
+[4.620877] (-) TimerEvent: {}
+[4.721662] (-) TimerEvent: {}
+[4.822509] (-) TimerEvent: {}
+[4.923232] (-) TimerEvent: {}
+[5.024067] (-) TimerEvent: {}
+[5.124798] (-) TimerEvent: {}
+[5.225625] (-) TimerEvent: {}
+[5.326421] (-) TimerEvent: {}
+[5.427173] (-) TimerEvent: {}
+[5.527945] (-) TimerEvent: {}
+[5.628696] (-) TimerEvent: {}
+[5.729509] (-) TimerEvent: {}
+[5.830433] (-) TimerEvent: {}
+[5.931197] (-) TimerEvent: {}
+[6.032019] (-) TimerEvent: {}
+[6.133008] (-) TimerEvent: {}
+[6.233790] (-) TimerEvent: {}
+[6.334576] (-) TimerEvent: {}
+[6.435324] (-) TimerEvent: {}
+[6.536159] (-) TimerEvent: {}
+[6.636902] (-) TimerEvent: {}
+[6.737711] (-) TimerEvent: {}
+[6.838472] (-) TimerEvent: {}
+[6.939306] (-) TimerEvent: {}
+[7.040075] (-) TimerEvent: {}
+[7.140843] (-) TimerEvent: {}
+[7.241646] (-) TimerEvent: {}
+[7.342418] (-) TimerEvent: {}
+[7.443214] (-) TimerEvent: {}
+[7.543992] (-) TimerEvent: {}
+[7.644756] (-) TimerEvent: {}
+[7.745536] (-) TimerEvent: {}
+[7.846368] (-) TimerEvent: {}
+[7.947119] (-) TimerEvent: {}
+[8.047893] (-) TimerEvent: {}
+[8.148727] (-) TimerEvent: {}
+[8.249488] (-) TimerEvent: {}
+[8.350324] (-) TimerEvent: {}
+[8.451064] (-) TimerEvent: {}
+[8.551820] (-) TimerEvent: {}
+[8.652585] (-) TimerEvent: {}
+[8.753344] (-) TimerEvent: {}
+[8.854201] (-) TimerEvent: {}
+[8.954956] (-) TimerEvent: {}
+[9.055704] (-) TimerEvent: {}
+[9.156475] (-) TimerEvent: {}
+[9.257219] (-) TimerEvent: {}
+[9.358043] (-) TimerEvent: {}
+[9.458749] (-) TimerEvent: {}
+[9.559499] (-) TimerEvent: {}
+[9.660264] (-) TimerEvent: {}
+[9.761046] (-) TimerEvent: {}
+[9.861840] (-) TimerEvent: {}
+[9.962654] (-) TimerEvent: {}
+[10.063443] (-) TimerEvent: {}
+[10.164194] (-) TimerEvent: {}
+[10.264958] (-) TimerEvent: {}
+[10.365740] (-) TimerEvent: {}
+[10.466531] (-) TimerEvent: {}
+[10.567291] (-) TimerEvent: {}
+[10.668067] (-) TimerEvent: {}
+[10.768867] (-) TimerEvent: {}
+[10.869636] (-) TimerEvent: {}
+[10.970406] (-) TimerEvent: {}
+[11.071163] (-) TimerEvent: {}
+[11.172098] (-) TimerEvent: {}
+[11.272871] (-) TimerEvent: {}
+[11.373650] (-) TimerEvent: {}
+[11.474459] (-) TimerEvent: {}
+[11.575213] (-) TimerEvent: {}
+[11.676029] (-) TimerEvent: {}
+[11.776820] (-) TimerEvent: {}
+[11.877635] (-) TimerEvent: {}
+[11.978471] (-) TimerEvent: {}
+[12.079242] (-) TimerEvent: {}
+[12.180013] (-) TimerEvent: {}
+[12.280789] (-) TimerEvent: {}
+[12.381564] (-) TimerEvent: {}
+[12.445887] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:39:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.446676] (cpp_pkg) StderrLine: {'line': b'   39 |         \x1b[01;31m\x1b[Kif\x1b[m\x1b[K(serialDataAvail(serialFd)){\n'}
+[12.447170] (cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.449322] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTestNode::TestNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.450122] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:17:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[12.450562] (cpp_pkg) StderrLine: {'line': b'   17 |                 if((serialFd = serialOpen(serialPort, baudRate)<0)\x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[12.450929] (cpp_pkg) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.451267] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:22:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.451596] (cpp_pkg) StderrLine: {'line': b'   22 |                 \x1b[01;31m\x1b[Kif\x1b[m\x1b[K(wiringPiSetup() == -1){\n'}
+[12.451904] (cpp_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.452220] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:22:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.452556] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:17:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.452926] (cpp_pkg) StderrLine: {'line': b'   17 |                 if\x1b[01;36m\x1b[K(\x1b[m\x1b[K(serialFd = serialOpen(serialPort, baudRate)<0){\n'}
+[12.453252] (cpp_pkg) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[12.453649] (cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:34:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest braces around empty body in an \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99 statement [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body\x07-Wempty-body\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.453997] (cpp_pkg) StderrLine: {'line': b'   34 |                 pinMode(24, OUTPUT)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[12.454455] (cpp_pkg) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.481722] (-) TimerEvent: {}
+[12.582560] (-) TimerEvent: {}
+[12.683266] (-) TimerEvent: {}
+[12.784011] (-) TimerEvent: {}
+[12.884738] (-) TimerEvent: {}
+[12.985493] (-) TimerEvent: {}
+[13.086197] (-) TimerEvent: {}
+[13.186966] (-) TimerEvent: {}
+[13.287726] (-) TimerEvent: {}
+[13.388496] (-) TimerEvent: {}
+[13.489268] (-) TimerEvent: {}
+[13.589997] (-) TimerEvent: {}
+[13.690822] (-) TimerEvent: {}
+[13.791522] (-) TimerEvent: {}
+[13.892211] (-) TimerEvent: {}
+[13.992934] (-) TimerEvent: {}
+[14.093657] (-) TimerEvent: {}
+[14.194482] (-) TimerEvent: {}
+[14.257730] (cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1\n'}
+[14.258562] (cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_node.dir/all] Error 2\n'}
+[14.259182] (cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.265840] (cpp_pkg) CommandEnded: {'returncode': 2}
+[14.294643] (-) TimerEvent: {}
+[14.395780] (-) TimerEvent: {}
+[14.496952] (-) TimerEvent: {}
+[14.598064] (-) TimerEvent: {}
+[14.699044] (-) TimerEvent: {}
+[14.800198] (-) TimerEvent: {}
+[14.901350] (-) TimerEvent: {}
+[15.002543] (-) TimerEvent: {}
+[15.103689] (-) TimerEvent: {}
+[15.204874] (-) TimerEvent: {}
+[15.306071] (-) TimerEvent: {}
+[15.365352] (cpp_pkg) JobEnded: {'identifier': 'cpp_pkg', 'rc': 2}
+[15.377007] (-) EventReactorShutdown: {}

@@ -1,0 +1,11 @@
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:[m[K In constructor ‘[01m[KNodeTemplate::NodeTemplate()[m[K’:
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:11:118:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   11 |                                                              std::bind(&NodeTemplate::timerCallback, this)[01;31m[K;[m[K
+      |                                                                                                           [01;31m[K^[m[K
+
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/node_template.cpp:10:41:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   10 |         timer_ = this->create_wall_timer[01;36m[K([m[Kstd::chrono::seconds(1),
+      |                                         [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/node_template.dir/build.make:76: CMakeFiles/node_template.dir/src/node_template.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_template.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

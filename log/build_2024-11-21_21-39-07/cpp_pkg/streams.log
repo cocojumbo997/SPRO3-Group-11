@@ -1,0 +1,13 @@
+[0.051s] Invoking command in '/home/user/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
+[0.236s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.290s] [ 50%] Built target node_template
+[0.321s] [ 75%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[10.716s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:[m[K In constructor ‘[01m[KTestNode::TestNode()[m[K’:
+[10.717s] [01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:9:17:[m[K [01;31m[Kerror: [m[K‘[01m[KwiringPiSetupGPIO[m[K’ was not declared in this scope; did you mean ‘[01m[KwiringPiSetupGpio[m[K’?
+[10.718s]     9 |                 [01;31m[KwiringPiSetupGpio[m[K();
+[10.718s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[10.719s]       |                 [32m[KwiringPiSetupGpio[m[K
+[12.753s] gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1
+[12.754s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+[12.754s] gmake: *** [Makefile:146: all] Error 2
+[12.761s] Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4

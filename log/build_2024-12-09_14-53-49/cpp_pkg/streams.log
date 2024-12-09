@@ -1,0 +1,14 @@
+[0.061s] Invoking command in '/home/user/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
+[0.263s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.323s] [ 25%] Built target node_template
+[0.333s] [ 50%] Built target LIDAR_node
+[0.348s] [ 62%] [32mBuilding CXX object CMakeFiles/motor_node.dir/src/motor_node.cpp.o[0m
+[0.362s] [ 87%] Built target test_node
+[13.231s] [100%] [32m[1mLinking CXX executable motor_node[0m
+[13.940s] /usr/bin/ld: CMakeFiles/motor_node.dir/src/motor_node.cpp.o: in function `MotorNode::MotorNode()':
+[13.941s] motor_node.cpp:(.text._ZN9MotorNodeC2Ev[_ZN9MotorNodeC5Ev]+0x448): undefined reference to `wiringPiSetupGpio'
+[13.963s] collect2: error: ld returned 1 exit status
+[13.969s] gmake[2]: *** [CMakeFiles/motor_node.dir/build.make:151: motor_node] Error 1
+[13.970s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/motor_node.dir/all] Error 2
+[13.971s] gmake: *** [Makefile:146: all] Error 2
+[13.979s] Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4

@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[ 33%] Built target node_template
+[ 66%] Built target LIDAR_node
+[ 83%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:41:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+   41 |         [01;31m[Kwhile[m[K(1){
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:58:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   58 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:5:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    5 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:58:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   58 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

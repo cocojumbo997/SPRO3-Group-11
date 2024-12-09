@@ -1,0 +1,10 @@
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:40:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   40 |         }
+      |          [01;31m[K^[m[K
+      |          [32m[K;[m[K
+[01m[K/home/user/ros2_ws/src/cpp_pkg/src/test_node.cpp:41:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+   41 |         [01;31m[Kwhile[m[K(1){
+      |         [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

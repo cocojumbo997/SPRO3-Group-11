@@ -1,0 +1,5 @@
+  File "/home/user/ros2_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg/lidar_node.py", line 17
+    		else
+    		    ^
+SyntaxError: expected ':'
+

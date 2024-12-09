@@ -1,0 +1,42 @@
+[0.066s] Invoking command in '/home/user/ros2_ws/build/cpp_pkg': /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
+[0.190s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.790s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.825s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.008s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.019s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.045s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.084s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.273s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.280s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.413s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.840s] Error parsing '/home/user/ros2_ws/src/cpp_pkg/package.xml':
+[3.023s] Traceback (most recent call last):
+[3.023s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[3.024s]     main()
+[3.024s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[3.024s]     raise e
+[3.025s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[3.025s]     package = parse_package_string(
+[3.026s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 633, in parse_package_string
+[3.027s]     version_node = _get_node(root, 'version', filename)
+[3.028s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 800, in _get_node
+[3.029s]     raise InvalidPackage('The manifest must contain exactly one "%s" tag' % tagname, filename)
+[3.030s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/user/ros2_ws/src/cpp_pkg/package.xml':
+[3.031s] The manifest must contain exactly one "version" tag
+[3.124s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.124s]   execute_process(/usr/bin/python3
+[3.124s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.125s]   /home/user/ros2_ws/src/cpp_pkg/package.xml
+[3.125s]   /home/user/ros2_ws/build/cpp_pkg/ament_cmake_core/package.cmake) returned
+[3.126s]   error code 1
+[3.126s] Call Stack (most recent call first):
+[3.126s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.127s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[3.127s]   CMakeLists.txt:34 (ament_package)
+[3.127s] 
+[3.127s] [0m
+[3.128s] -- Configuring incomplete, errors occurred!
+[3.128s] See also "/home/user/ros2_ws/build/cpp_pkg/CMakeFiles/CMakeOutput.log".
+[3.161s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1
+[3.168s] Invoked command in '/home/user/ros2_ws/build/cpp_pkg' returned '2': /usr/bin/cmake --build /home/user/ros2_ws/build/cpp_pkg -- -j4 -l4
