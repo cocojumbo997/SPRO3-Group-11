@@ -16,7 +16,7 @@ class LidarNode(Node):
         
         self.publisher = self.create_publisher(Int64, 'uart_rx', 10)
         self.get_logger().info("Lidar node initialized")
-        self.create_timer(1/8000, self.read_uart)  
+        self.create_timer(1/4500, self.read_uart)  
         
     def read_uart(self):
         try:
